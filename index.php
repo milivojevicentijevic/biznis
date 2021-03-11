@@ -9,6 +9,6 @@
      <link rel="stylesheet" href="scss/style.css">
 </head>
 <body>
-
+    <h1>Biznis</h1>
 </body>
 </html>
