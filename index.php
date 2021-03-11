@@ -9,6 +9,16 @@
      <link rel="stylesheet" href="scss/style.css">
 </head>
 <body>
-    <h1>Biznis</h1>
+    <nav>
+        <a href="" class="logo">BUSINESS <br> <span>Marketing &amp; Consulting</span></a>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Sign up</a></li>
+            <li><a href=""><i class="fas fa-search"></i></a></li>
+        </ul>
+    </nav>
 </body>
 </html>
