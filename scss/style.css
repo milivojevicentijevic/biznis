@@ -160,6 +160,7 @@ footer .container .col {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  color: #fff;
 }
 
 footer .container .col .logo {
