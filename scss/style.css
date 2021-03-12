@@ -180,4 +180,11 @@ footer .container .col .logo:hover {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
+
+/*********************
+header
+*********************/
+header {
+  background-image: url(../img/header.jpg);
+}
 /*# sourceMappingURL=style.css.map */
