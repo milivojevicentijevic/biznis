@@ -109,6 +109,7 @@ footer {
         @include flex( space-between, center, row);
         .col {
             flex: 1;
+            color: $white;
             .logo {
                 font-size: 1.5rem;
                 line-height: 25px;
