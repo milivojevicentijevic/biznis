@@ -320,6 +320,9 @@ black heading
         text-align: center;
         .col {
             flex: 0 0 28%;
+            @media (max-width: 767px) {
+                flex: 0 0 100%;
+            }
             h2 {
                 color: $pink;
                 font-size: 4rem;

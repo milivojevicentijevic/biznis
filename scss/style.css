@@ -616,6 +616,14 @@ black heading
           flex: 0 0 28%;
 }
 
+@media (max-width: 767px) {
+  .business .counter .col {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+}
+
 .business .counter .col h2 {
   color: #ef1f52;
   font-size: 4rem;
