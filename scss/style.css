@@ -74,9 +74,23 @@ a:hover {
           flex: 2;
 }
 
+@media (max-width: 767px) {
+  .headings article:first-child {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+}
+
 .headings article:first-child h2 {
   font-size: 10rem;
   color: #cccac5;
+}
+
+@media (max-width: 767px) {
+  .headings article:first-child h2 {
+    font-size: 8rem;
+  }
 }
 
 .headings article:last-child {
@@ -85,12 +99,26 @@ a:hover {
           flex: 10;
 }
 
+@media (max-width: 767px) {
+  .headings article:last-child {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+}
+
 .headings article:last-child h3 {
   text-transform: uppercase;
 }
 
 .headings article:last-child h2 {
   font-size: 3rem;
+}
+
+@media (max-width: 767px) {
+  .headings article:last-child h2 {
+    font-size: 2rem;
+  }
 }
 
 .headings article:last-child h2 span {
