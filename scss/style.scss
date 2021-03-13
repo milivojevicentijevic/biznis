@@ -202,7 +202,7 @@ footer {
 /*********************
 header
 *********************/
-header {
+.mainHeader {
     background-image: url(../img/header.jpg);
     background-position: center right;
     background-size: cover;
@@ -308,3 +308,6 @@ services
 /*********************
 black heading
 *********************/
+.business {
+    background-color: $black;
+}

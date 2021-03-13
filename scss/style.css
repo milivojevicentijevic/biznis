@@ -317,7 +317,7 @@ footer .container .col .logo:hover {
 /*********************
 header
 *********************/
-header {
+.mainHeader {
   background-image: url(../img/header.jpg);
   background-position: center right;
   background-size: cover;
@@ -342,7 +342,7 @@ header {
 }
 
 @media (max-width: 767px) {
-  header {
+  .mainHeader {
     text-align: left;
     padding: 30px;
     display: -webkit-box;
@@ -363,29 +363,29 @@ header {
   }
 }
 
-header h1 {
+.mainHeader h1 {
   font-size: 4rem;
   line-height: 1.3;
 }
 
 @media (max-width: 767px) {
-  header h1 {
+  .mainHeader h1 {
     font-size: 3rem;
   }
 }
 
-header h3 {
+.mainHeader h3 {
   font-size: 2rem;
   color: #ef1f52;
   padding: 20px 0;
 }
 
-header p {
+.mainHeader p {
   color: #ef1f52;
   font-size: 1.3rem;
 }
 
-header button {
+.mainHeader button {
   padding: 15px 40px;
   background-color: #ef1f52;
   color: #fff;
@@ -395,7 +395,7 @@ header button {
   cursor: pointer;
 }
 
-header button:hover {
+.mainHeader button:hover {
   background-color: #1f1f1f;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -569,4 +569,7 @@ services
 /*********************
 black heading
 *********************/
+.business {
+  background-color: #1f1f1f;
+}
 /*# sourceMappingURL=style.css.map */
