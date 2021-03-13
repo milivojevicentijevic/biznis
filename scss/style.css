@@ -535,6 +535,14 @@ services
   padding: 20px;
 }
 
+@media (max-width: 767px) {
+  .services article {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+}
+
 .services article:hover {
   -webkit-box-shadow: 0 0 20px #cccac5;
           box-shadow: 0 0 20px #cccac5;
