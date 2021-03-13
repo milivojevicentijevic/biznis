@@ -82,4 +82,17 @@
         </article>
     </section>
 
+     <!-- headings -->
+     <section class="headings container black">
+        <article>
+            <h2>03</h2>
+        </article>
+        <article>
+            <h3>About us</h3>
+            <h2 class="titles"><span>Create</span> personalised business</h2>
+            <h4>Get your Business in 4 easy steps</h4>
+            <button>About us</button>
+        </article>
+    </section>
+
 <?php include "partials/footer.php"; ?>    
