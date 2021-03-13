@@ -126,4 +126,23 @@
         </article>
     </section>
 
+    <!-- team -->
+    <section class="team container">
+        <article>
+            <img src="img/team1.jpg" alt="">
+            <h4>James Douglas</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, magni. Sit optio sed in vero, numquam cum corrupti ex nesciunt.</p>
+        </article>
+        <article>
+            <img src="img/team2.jpg" alt="">
+            <h4>Peter Green</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, magni. Sit optio sed in vero, numquam cum corrupti ex nesciunt.</p>
+        </article>
+        <article>
+            <img src="img/team3.jpg" alt="">
+            <h4>Ela Williams</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, magni. Sit optio sed in vero, numquam cum corrupti ex nesciunt.</p>
+        </article>
+    </section>
+
 <?php include "partials/footer.php"; ?>    
