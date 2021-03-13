@@ -571,5 +571,66 @@ black heading
 *********************/
 .business {
   background-color: #1f1f1f;
+  color: #fff;
+}
+
+.business button {
+  padding: 15px 40px;
+  background-color: #ef1f52;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.business button:hover {
+  background-color: #1f1f1f;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.business .counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.business .counter .col {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 28%;
+          flex: 0 0 28%;
+}
+
+.business .counter .col h2 {
+  color: #ef1f52;
+  font-size: 4rem;
+}
+
+.business .counter .col h4 {
+  color: #ef1f52;
+  font-size: 2rem;
+}
+
+.business .counter .col hr {
+  border: none;
+  height: 2px;
+  background-color: #fff;
+  width: 80px;
+  margin: 30px auto;
 }
 /*# sourceMappingURL=style.css.map */

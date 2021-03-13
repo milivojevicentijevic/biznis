@@ -310,4 +310,31 @@ black heading
 *********************/
 .business {
     background-color: $black;
+    color: $white;
+    button {
+        @include btn;
+    }
+    .counter {
+        @include flex(center, center, row);
+        padding: $padding;
+        text-align: center;
+        .col {
+            flex: 0 0 28%;
+            h2 {
+                color: $pink;
+                font-size: 4rem;
+            }
+            h4 {
+                color: $pink;
+                font-size: 2rem;
+            }
+            hr {
+                border: none;
+                height: 2px;
+                background-color: $white;
+                width: 80px;
+                margin: 30px auto;
+            }
+        }
+    }
 }
