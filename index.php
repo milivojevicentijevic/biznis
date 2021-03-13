@@ -82,7 +82,7 @@
         </article>
     </section>
 
-     <!-- headings -->
+     <!-- business -->
     <section class="business">
         <header class="headings container">
             <article>
@@ -114,5 +114,16 @@
         </div>
     </section>
      
+    <!-- headings -->
+    <section class="headings container">
+        <article>
+            <h2>04</h2>
+        </article>
+        <article>
+            <h3>Our team</h3>
+            <h2><span>We have a professional</span> team of business analysts</h2>
+            <h4>Get your Business in 4 easy steps</h4>
+        </article>
+    </section>
 
 <?php include "partials/footer.php"; ?>    

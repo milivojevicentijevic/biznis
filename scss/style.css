@@ -113,6 +113,7 @@ a:hover {
 
 .headings article:last-child h2 {
   font-size: 3rem;
+  text-transform: uppercase;
 }
 
 @media (max-width: 767px) {
