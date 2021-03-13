@@ -251,6 +251,7 @@ footer {
   background: -webkit-gradient(linear, left top, right top, from(#1f1f1f), to(#ef1f52));
   background: linear-gradient(to right, #1f1f1f, #ef1f52);
   text-align: center;
+  color: #fff;
 }
 
 footer .container {
@@ -275,16 +276,6 @@ footer .container .col {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  color: #fff;
-}
-
-@media (max-width: 767px) {
-  footer .container .col {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-    margin-bottom: 20px;
-  }
 }
 
 @media (max-width: 767px) {
@@ -534,6 +525,8 @@ services
   border: 1px solid #1f1f1f;
   margin-bottom: 50px;
   padding: 20px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 @media (max-width: 767px) {
@@ -549,8 +542,6 @@ services
           box-shadow: 0 0 20px #cccac5;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
 }
 
 .services article i {
